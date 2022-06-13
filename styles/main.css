@@ -1,0 +1,947 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.top-horizontal-line{
+  width: 100%;
+  height: 4px;
+  background: #295093;
+}
+
+.box-1 {
+  background-color: #f6f6f9;
+  padding-bottom: 23px;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 121px;
+  padding-right: 121px;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 47px;
+  vertical-align: middle;
+}
+
+.logo-header {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  width: 306px;
+  height: 33px;
+  margin: 0;
+  padding: 3px 6px 4px 8px;
+  background-color: #fff;
+  color: #295091;
+}
+
+.valyuta {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 23px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 258px;
+}
+
+.valyuta-item {
+
+}
+
+.valyuta-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #888888;
+}
+
+.valyuta-logo {
+  color: #285193
+}
+
+.search-button {
+  border: 0px;
+  background-color: #fff;
+  margin-left: 326px;
+}
+
+.search-img {
+  /* padding: 11px 9.6px 11.5px 11px; */
+  
+  width: 17.5px;
+  height: 17.5px;
+}
+
+.language-button {
+  border: 0px;
+  margin-left: 21.9px;
+  background-color: #fff;
+}
+
+.language-img {
+  /* padding: 10px 0px 10px 11px; */
+  width: 20px;
+  height: 20px;
+}
+
+.language-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+  /* padding: 11px 7.76px 8px 5.03px; */
+}
+
+.telegram-link-header {
+  vertical-align: middle;
+  margin-left: 23.24px;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 146px;
+  height: 40px;
+}
+
+.telegram-link-header-img {
+  /* padding: 10.31px 7.31px 10.31px 10.31px; */
+  width: 19.38px;
+  height: 19.38px;
+}
+
+.telegram-header-text {
+  
+}
+
+/* Menu */
+
+.menu {
+  margin-top: 40px;
+  margin-bottom: 18px;
+  padding: 21px 0px 22px;
+  background-color: #fff;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.menu-item {
+
+}
+
+.menu-item-link {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+  text-decoration: none;
+}
+
+.politics {
+  color: rgb(14, 5, 143);
+}
+
+/* Call operator */
+
+.call-img {
+  width: 1200px;
+  height: 99px;
+}
+
+/* Statistics */
+
+.statistics {
+  margin-top: 22px;
+  display: flex;
+  /* justify-content: space-around; */
+  background-color: #f6f6f9;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.corona {
+  
+  display: flex;
+  align-items: center;
+}
+
+.corona-img {
+  width: 43px;
+  height: 45px;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+
+.corona-text {
+  width: 232px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px;
+  margin-right: 71px;
+}
+
+.vertical-line-first {
+  margin-top: 30px;
+  margin-bottom: 29px;
+  width: 2px;
+  height: 74px;
+  background-color: #eb5569;
+}
+
+.sick {
+  display: flex;
+  align-items: center;
+}
+
+.sick-img {
+  width: 35.62px;
+  height: 37.5px;
+  margin-left: 30.19px;
+  margin-right: 18.19px;
+}
+
+.sick-text {
+  margin: 0;
+  margin-right: 42px;
+  width: 161px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #db0000;
+}
+
+.statistics-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000;
+}
+
+.vertical-line-second {
+  margin-top: 42px;
+  width: 2px;
+  height: 49px;
+  background-color: #f4ccd1;
+}
+
+.rectified {
+  display: flex;
+  align-items: center;
+}
+
+.rectified-img {
+  margin-left: 30.19px;
+  margin-right: 20.19px;
+  width: 35.62px;
+  height: 37.5px;
+}
+
+.rectified-text {
+  margin-right: 9px;
+  margin: 0;
+  width: 161px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05b135;
+}
+
+.died {
+  display: flex;
+  align-items: center;
+}
+
+.died-img {
+  margin-left: 27px;
+  width: 38px;
+  height: 38px;
+  margin-right: 19px;
+}
+
+.died-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+/* Images */
+
+.images {
+  
+}
+
+.images-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.images-item {
+
+}
+
+.images-item-img {
+  margin-top: 18px;
+  width: 386px;
+  height: 190px;
+}
+
+.images-item-text {
+  margin: 0;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  width: 380px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+
+}
+
+.images-item-data {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6d97;
+  }
+
+/* Bell */
+
+.bell {
+  margin-top: 34px;
+  background-color: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.bell-img {
+  margin-left: 24.37px;
+  width: 29.25px;
+  height: 34.6px;
+}
+
+.bell-text {
+  margin: 0;
+  margin-left: 18.37px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
+.bell-button {
+  margin-left: 224px;
+  margin-top: 25px;
+  margin-bottom: 24px;
+  padding: 8px 8px 8px 15px;
+  background: linear-gradient(90deg, #fe5c28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* News */
+
+.news {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+/* //  Latest news */
+
+.latest-news {
+
+}
+
+.latest-news-title {
+  margin: 0;
+  margin-top: 38px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.latest-news-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-news-item {
+  width: 794px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* height: 143px; */
+}
+
+.latest-news-item-img {
+  margin-right: 19px;
+  margin-top: 18px;
+  width: 252px;
+  height: 143px;
+}
+
+.top-img {
+  margin-top: 13px;
+}
+
+.latest-news-item-text {
+  /* margin-top: 4px; */
+}
+
+.latest-news-item-title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  width: 523px;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-news-item-paragrapg {
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.latest-news-item-data {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-news-item-data-img {
+  margin-right: 4px;
+  width: 14px;
+  height: 16.67px;
+}
+
+.bottom-img {
+  margin-bottom: 28px;
+}
+
+.latest-news-link {
+  margin-left: 295px;
+  margin-top: 58px;
+  padding: 10px 32px 10px 31px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #295093;
+  border-radius: 5px;
+}
+
+/* Popular news */
+
+.popular-news {
+  margin-left: 18px;
+  margin-top: 36px;
+  padding: 16px 20px 18px;
+  width: 386px;
+  height: 542px;
+  background: #f6f6f9;
+  border-radius: 5px;
+}
+
+.popular-news-title {
+  margin: 0;
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+}
+
+.popular-news-paragraph{
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+
+.popular-news-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+}
+
+.popular-news-horizontal-line {
+  width: 346px;
+  height: 4px;
+  background: #e4e4e4;
+}
+
+.usell {
+  width: 386px;
+  height: 477px;
+}
+
+.usell-img {
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+/* Download */
+
+.download {
+  margin-top: 38px;
+  padding-top: 37px;
+  display: flex;
+  align-items: center;
+  background: #f6f6f9;
+  border-radius: 5px;
+}
+
+.phone {
+  margin-left: 19px;
+  width: 236px;
+  height: 177px;
+  /* background-color: skyblue; */
+  background-image: url(../images/phone_logo.png), url(../images/phone.png);
+  background-size: 85px 87px, 236px 177px;
+  background-position: 62px 69px, center bottom;
+  background-repeat: no-repeat;
+}
+
+.download-text {
+  margin-left: -10px;
+  width: 526px;
+}
+
+.download-title {
+  width: 526px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #295093;
+}
+
+.download-paragraph {
+  width: 520px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.google-play {
+  margin-left: 63px;
+  margin-right: 20px;
+  width: 162.71px;
+  height: 50px;
+}
+
+.app-store {
+  width: 164px;
+  height: 50px;
+}
+
+/* Footer */
+
+.box-2 {
+  background: #295093;
+}
+
+.footer {
+  margin-top: 38px;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+}
+
+.logo-footer-link {
+  width: 194px;
+  height: 38px;
+  background-color: #133c82;
+  border-radius: 5px;
+  padding: 11px 12px 6px 9px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.logo-footer-paragraph {
+  margin: 0;
+  padding: 0;
+  margin-left: 195px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.footer-telegram-link {
+  margin-left: 18px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 132px;
+  height: 38px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-telegram-img {
+  width: 17.44px;
+  height: 19.38px;
+}
+
+.connect {
+  color:  #000;
+}
+
+.footer-horizontal-line {
+  margin-top: 18px;
+  margin-bottom: 12px;
+  width: 1200px;
+  height: 3px;
+  background-color: #133c82;
+}
+
+.lists {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.footer-text {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 13px;
+}
+
+.footer-text-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-text-link-bottom {
+  margin-top: 13px;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  margin-left: 111px;
+  list-style-type: none;
+}
+
+.footer-list-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-list-link-item {
+  margin-bottom: 13px;
+}
+
+
+
+
+/* Article page */
+
+.latest-news-article-page {
+
+}
+
+.latest-news-title-article-page {
+  margin: 0;
+  margin-top: 17px;
+  margin-bottom: 13px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.latest-news-data-article-page {
+  margin: 0;
+  /* margin-top: 13px; */
+  padding: 0;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+
+}
+
+.latest-news-data-img-article-page {
+  width: 14px;
+  height: 16.37px;
+}
+
+.latest-news-img-article-page {
+  margin-top: 14px;
+  margin-bottom: 17px;
+  width: 794px;
+  height: 379px;
+}
+
+.latest-news-paragraph-article-page {
+  margin: 0;
+  margin-bottom: 17px;
+  padding: 0;
+  width: 794px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6c6969;
+}
+
+.sentence {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.list-article-page {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+}
+
+.item-article-page {
+  margin-right: 20px;
+}
+
+.item-article-page-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #28508e;
+}
+
+.news-horizontal-line-article-page {
+  margin-top: 20px;
+  width: 794px;
+  height: 2px;
+  background-color: #ebebeb;
+}
+
+.images-title {
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 15px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
+
+
+/* Contact */
+
+.form-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  /* height: 50px; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  margin-bottom: 20px;
+  width: 600px;
+  height: 50px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  width: 600px;
+  height: 307px;
+}
+
+.file {
+  width: 221px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.password-label {
+  width: 327px;
+}
+
+.password-area {
+  margin-right: 18px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.submit-area {
+  background-color: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  border-radius: 5px;
+  width: 170px;
+  height: 50px;
+}
+
+.contact {
+  width: 510px;
+  height: 280px;
+  margin-top: 59px;
+  padding: 23px 20px 23px 25px;
+  border: 2px solid #bcc3cd;
+  /* background-color: red; */
+  box-shadow: -10px 10px 0px 5px #e5e5e5;
+}
+
+.connect-contact-page {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-title {
+  margin: 0;
+  margin-bottom: 21px;
+  padding: 0;
+  text-align: right;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+}
+
+.list-contact-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.item-contact-page {
+  
+  margin-bottom: 30px;
+}
+
+.contact-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  text-decoration: none;
+}
+
+.connect-email {
+  margin: 0;
+  /* margin-top: 18px; */
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.contact-icon-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+
+.contact-icon-item {
+  margin-left: 13.22px;
+  margin-top: 25.22px;
+}
+
+.telegram-link-contact-div {
+  margin-top: 19.38px;
+}
+
+.telegram-connect-contact-pace {
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 100px;
+  margin-top: 20.8px;
+  padding: 7px 9px;
+  left: 79.79%;
+  right: 9.79%;
+  color: #fff;
+  background: #295091;
+  border-radius: 5px;
+}
+
+.telegram-icon-img {
+  margin-right: 2px;
+  width: 19.38px;
+  height: 19.38px;
+}
+
+.app {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
